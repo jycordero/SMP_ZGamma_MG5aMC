@@ -35,26 +35,32 @@ corderom_MG5_aMC/
 -----
 Wraps all modules and sets paths for input and output
 
-```./NTGC_generateMGFiles.sh $1```
+```./NTGC_generateMGFiles.sh $1 $2```
   * __$1__ = number that indicates the coupling to use
      * {1,2,3,4} = {CBtWL4, CBWL4, CWWL4, CBBL4}
+  * __$2__ = value to assign to the coupling constant indicated in __$1__
 
 ## NTGC_generateMGFiles.sh
 -----
 Generates the process definition and changes the coupling for the nTGC model
 
-```./NTGC_generateMGFiles.sh $1```
+```./NTGC_generateMGFiles.sh $1 $2 $3 $4```
   * __$1__ = number that indicates the coupling to use
      * {1,2,3,4} = {CBtWL4, CBWL4, CWWL4, CBBL4}
+  * __$2__ = value to assign to the coupling constant indicated in __$1__
+  * __$3__ = output path for madgraph 
+  * __$4__ = path to store the configuration files generated 
    
 ## NTGC_generateMAFiles.sh
 -----
 Generates the graphing parameters 
 
-```./NTGC_generateMAFiles.sh $1```
+```./NTGC_generateMAFiles.sh $1 $2 $3 $4```
   * __$1__ = number that indicates the coupling to use
      * {1,2,3,4} = {CBtWL4, CBWL4, CWWL4, CBBL4} 
-
+  * __$2__ = value to assign to the coupling constant indicated in __$1__
+  * __$3__ = output path for madgraph 
+  * __$4__ = path to store the configuration files generated 
 
 ## NTGC_modifyHTML.sh
 -----
