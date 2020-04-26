@@ -1,9 +1,9 @@
 COUPSEL=$1
+VALUE=$2
 #COUPSEL=$2
 #OUTNAME=$1
 
 COUPSET=(CBtWL4 CBWL4 CWWL4 CBBL4)
-VAL=4
 if [ $COUPSEL == 1 ] 
 then
 	COUPLING=CBtWL4
@@ -18,33 +18,38 @@ then
 	COUPLING=CBBL4
 else
 	COUPLING=CBtWL4
-	VAL=0
+	VALUE=0
 fi
 
+if [ -z $VALUE ] ; then 
+	echo "Value for coupling is requieres as second arg"
+fi
 
-OUTNAME=$COUPLING
+TOPDIR=$PWD
+
+OUTNAME=${COUPLING}_${VALUE}
 OUTDIR=output/scripts
 OUTLOG=output/log
 OUTMAD=output/results
 
-MGPATH=/home/jcordero/CMS/Theory/MG5_aMC_v2_7_2
+MGPATH=$TOPDIR/..
 MAPATH=$MGPATH/HEPTools/madanalysis5/madanalysis5
 ################################################################
 echo Running the MadGraph code
-./NTGC_generateMGFiles.sh $COUPSEL 
+./NTGC_generateMGFiles.sh $COUPLING $VALUE $TOPDIR/$OUTMAD $TOPDIR/$OUTDIR
 
 echo MadGraph Files... Done
 echo MadGraph... Start
-source `$MGPATH/bin/mg5_aMC $OUTDIR/mg5_$COUPLING.txt > $OUTLOG/mg_$COUPLING.log`
+source `$MGPATH/bin/mg5_aMC $OUTDIR/mg5_${OUTNAME}.txt > $OUTLOG/mg_${OUTNAME}.log`
 
 echo MadGraph... Done
 #################################################################
 echo Running the MadAnalysis code
-./NTGC_generateMAFiles.sh $COUPSEL
+./NTGC_generateMAFiles.sh $COUPLING $VALUE  $TOPDIR/$OUTMAD $TOPDIR/$OUTDIR
 
 echo MadAnalysis Files... Done
 echo MadAnalysis... Start
-source `$MAPATH/bin/ma5 $OUTDIR/ma5_$COUPLING.txt > $OUTLOG/ma_$COUPLING.log`
+source `$MAPATH/bin/ma5 $OUTDIR/ma5_${OUTNAME}.txt > $OUTLOG/ma_${OUTNAME}.log`
 echo MadAnalysis... Done
 ###############################################################
 
