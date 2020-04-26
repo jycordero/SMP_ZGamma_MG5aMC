@@ -1,0 +1,19 @@
+<SAFheader>
+</SAFheader>
+
+<SampleGlobalInfo>
+# xsection     xsection_error nevents        sum_weight+    sum_weight-    
+3.958461e-04   1.231810e-06   10000          3.958461e+00   0.000000e+00   
+</SampleGlobalInfo>
+
+<FileInfo>
+"/home/jcordero/CMS/Theory/MG5_aMC_v2_7_2/corderom/output/results/ntgc_llg_CWWL4/Events/run_01/unweighted_events.lhe.gz" # file 1 / 1
+</FileInfo>
+
+<SampleDetailedInfo>
+# xsection     xsection_error nevents        sum_weight+    sum_weight-    
+3.958461e-04   1.231810e-06   10000          3.958461e+00   0.000000e+00    # file 1 / 1
+</SampleDetailedInfo>
+
+<SAFfooter>
+</SAFfooter>

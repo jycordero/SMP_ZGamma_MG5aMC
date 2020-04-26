@@ -1,0 +1,37 @@
+import model NTGC
+generate p p > z a, z > l- l+ 
+output ntgc_llg_CBtWL4
+launch
+	3
+	set CBtWL4 4
+	set CBWL4  0 
+	set CWWL4  0 
+	set CBBL4  0 
+
+#import model NTGC
+#generate p p > z a, z > l- l+ 
+#output ntgc_llg_CBWL4
+#launch
+#	set CBtWL4 0
+#	set CBWL4  4 
+#	set CWWL4  0 
+#	set CBBL4  0
+#
+# 
+#import model NTGC
+#generate p p > z a, z > l- l+ 
+#output ntgc_llg_CWWL4
+#launch
+#	set CBtWL4 0
+#	set CBWL4  0 
+#	set CWWL4  4 
+#	set CBBL4  0
+#
+#import model NTGC
+#generate p p > z a, z > l- l+ 
+#output ntgc_llg_CBBL4
+#launch
+#	set CBtWL4 0
+#	set CBWL4  0 
+#	set CWWL4  0
+#	set CBBL4  4 
