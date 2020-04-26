@@ -12,11 +12,11 @@ corderom_MG5_aMC/
 | 
 |->NTGC_generateMAFiles.sh (dependancy)
 |
-|->NTGC_generateFiles.sh ( generates MA and MG, should be superceded by previouse two)
-|
 |->NTGC_modifyHTML.sh (dependancy)
 |
 |->NTGC_SingleRun.sh ("master" code)
+|
+|->NTGC_generateFiles.sh ( generates MA and MG, should be superceded by the first three )
 |
 |-> output/
       |
