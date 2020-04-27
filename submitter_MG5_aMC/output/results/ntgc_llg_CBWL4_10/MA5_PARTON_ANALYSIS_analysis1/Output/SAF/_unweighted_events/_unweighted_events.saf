@@ -1,0 +1,19 @@
+<SAFheader>
+</SAFheader>
+
+<SampleGlobalInfo>
+# xsection     xsection_error nevents        sum_weight+    sum_weight-    
+9.649231e-03   2.797183e-05   10000          9.649231e+01   0.000000e+00   
+</SampleGlobalInfo>
+
+<FileInfo>
+"/uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/output/results/ntgc_llg_CBWL4_10/Events/run_01/unweighted_events.lhe.gz" # file 1 / 1
+</FileInfo>
+
+<SampleDetailedInfo>
+# xsection     xsection_error nevents        sum_weight+    sum_weight-    
+9.649231e-03   2.797183e-05   10000          9.649231e+01   0.000000e+00    # file 1 / 1
+</SampleDetailedInfo>
+
+<SAFfooter>
+</SAFfooter>

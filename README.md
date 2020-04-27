@@ -4,6 +4,31 @@ This is code developed to run the MG5_aMC generatos for ZGamma production with t
 
 This folder(`cordero_MG5_aMC`) should be located on the main Madgraph directory, same level as bin
 
+# CMSSW Setup 
+```
+source /cvmfs/cms.cern.ch/cmsset_default.sh
+export SCRAM_ARCH=slc6_amd64_gcc491
+cmsrel CMSSW_10_2_13
+cd CMSSW_10_2_13/src
+cmsenv
+```
+
+# Installing Madgraph
+__Note__ This repo already has the Madgraph package, but I recommend installing it from scratch
+
+```
+wget https://launchpad.net/mg5amcnlo/2.0/2.7.x/+download/MG5_aMC_vX.X.X.tar.gz
+tar -xf MG5_aMC_vX.X.X.tar.gz
+```
+This repo used `MG5_aMC_v2.7.2.tar.gz`
+
+You also want some other dependancies that can be installed from the MG CLI
+```
+MG5>install MadAnalysis
+MG5>install Delphes
+MG5>install zlib
+```
+
 # Structure 
 ```
 corderom_MG5_aMC/
@@ -69,3 +94,4 @@ Modifies the output files to have the proper HTML format to access the display a
 ```./NTGC_generateMAFiles.sh $1```
   * __$1__ = number that indicates the coupling to use
      * {1,2,3,4} = {CBtWL4, CBWL4, CWWL4, CBBL4} 
+

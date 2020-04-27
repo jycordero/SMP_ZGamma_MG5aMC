@@ -1,0 +1,46 @@
+#************************************************************
+#*                     MadGraph5_aMC@NLO                    *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 2.7.2                 2020-03-17         *
+#*                                                          *
+#*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for MadGraph5_aMC@NLO         *
+#*                                                          *
+#*     run as ./bin/mg5_aMC  filename                       *
+#*                                                          *
+#************************************************************
+set default_unset_couplings 99
+set group_subprocesses Auto
+set ignore_six_quark_processes False
+set loop_optimized_output True
+set loop_color_flows False
+set gauge unitary
+set complex_mass_scheme False
+set max_npoint_for_channel 0
+set lhapdf /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw/CMSSW_10_2_1\
+3/external/slc6_amd64_gcc700/bin/lhapdf-config
+set fastjet /uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP\
+_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/../HEPTools/mad\
+analysis5/madanalysis5/tools/fastjet/bin/fastjet-config
+import model NTGC
+define p = g u c d s u~ c~ d~ s~
+define j = g u c d s u~ c~ d~ s~
+define l+ = e+ mu+
+define l- = e- mu-
+define vl = ve vm vt
+define vl~ = ve~ vm~ vt~
+generate p p > z a, z > l- l+
+output /uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP_ZGam\
+ma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/output/results/ntgc_\
+llg_CBWL4_10

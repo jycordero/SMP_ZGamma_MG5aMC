@@ -1,0 +1,107 @@
+void selection_21()
+{
+
+  // ROOT version
+  Int_t root_version = gROOT->GetVersionInt();
+
+  // Creating a new TCanvas
+  TCanvas* canvas = new TCanvas("canvas_plotflow_tempo43","canvas_plotflow_tempo43",0,0,700,500);
+  gStyle->SetOptStat(0);
+  gStyle->SetOptTitle(0);
+  canvas->SetHighLightColor(2);
+  canvas->SetFillColor(0);
+  canvas->SetBorderMode(0);
+  canvas->SetBorderSize(3);
+  canvas->SetFrameBorderMode(0);
+  canvas->SetFrameBorderSize(0);
+  canvas->SetTickx(1);
+  canvas->SetTicky(1);
+  canvas->SetLeftMargin(0.14);
+  canvas->SetRightMargin(0.05);
+  canvas->SetBottomMargin(0.15);
+  canvas->SetTopMargin(0.05);
+
+  // Creating a new TH1F
+  TH1F* S22_DELTAR_0 = new TH1F("S22_DELTAR_0","S22_DELTAR_0",40,0.0,5.0);
+  // Content
+  S22_DELTAR_0->SetBinContent(0,0.0); // underflow
+  S22_DELTAR_0->SetBinContent(1,11.4439907529);
+  S22_DELTAR_0->SetBinContent(2,35.1232023107);
+  S22_DELTAR_0->SetBinContent(3,20.2826813343);
+  S22_DELTAR_0->SetBinContent(4,11.2413507395);
+  S22_DELTAR_0->SetBinContent(5,6.10796340183);
+  S22_DELTAR_0->SetBinContent(6,3.76320024757);
+  S22_DELTAR_0->SetBinContent(7,2.20002514473);
+  S22_DELTAR_0->SetBinContent(8,1.53422810093);
+  S22_DELTAR_0->SetBinContent(9,1.13860907491);
+  S22_DELTAR_0->SetBinContent(10,0.839483155228);
+  S22_DELTAR_0->SetBinContent(11,0.530707734914);
+  S22_DELTAR_0->SetBinContent(12,0.46316313047);
+  S22_DELTAR_0->SetBinContent(13,0.308775420314);
+  S22_DELTAR_0->SetBinContent(14,0.328073921583);
+  S22_DELTAR_0->SetBinContent(15,0.24123081587);
+  S22_DELTAR_0->SetBinContent(16,0.144738509522);
+  S22_DELTAR_0->SetBinContent(17,0.192984612696);
+  S22_DELTAR_0->SetBinContent(18,0.0868430857132);
+  S22_DELTAR_0->SetBinContent(19,0.0868430857132);
+  S22_DELTAR_0->SetBinContent(20,0.0578953938088);
+  S22_DELTAR_0->SetBinContent(21,0.0771938550784);
+  S22_DELTAR_0->SetBinContent(22,0.0385969225392);
+  S22_DELTAR_0->SetBinContent(23,0.0385969225392);
+  S22_DELTAR_0->SetBinContent(24,0.0289476919044);
+  S22_DELTAR_0->SetBinContent(25,0.048246163174);
+  S22_DELTAR_0->SetBinContent(26,0.0385969225392);
+  S22_DELTAR_0->SetBinContent(27,0.048246163174);
+  S22_DELTAR_0->SetBinContent(28,0.0);
+  S22_DELTAR_0->SetBinContent(29,0.0192984612696);
+  S22_DELTAR_0->SetBinContent(30,0.0192984612696);
+  S22_DELTAR_0->SetBinContent(31,0.0);
+  S22_DELTAR_0->SetBinContent(32,0.0096492316348);
+  S22_DELTAR_0->SetBinContent(33,0.0);
+  S22_DELTAR_0->SetBinContent(34,0.0096492316348);
+  S22_DELTAR_0->SetBinContent(35,0.0);
+  S22_DELTAR_0->SetBinContent(36,0.0);
+  S22_DELTAR_0->SetBinContent(37,0.0);
+  S22_DELTAR_0->SetBinContent(38,0.0);
+  S22_DELTAR_0->SetBinContent(39,0.0);
+  S22_DELTAR_0->SetBinContent(40,0.0);
+  S22_DELTAR_0->SetBinContent(41,0.0); // overflow
+  S22_DELTAR_0->SetEntries(10000);
+  // Style
+  S22_DELTAR_0->SetLineColor(9);
+  S22_DELTAR_0->SetLineStyle(1);
+  S22_DELTAR_0->SetLineWidth(1);
+  S22_DELTAR_0->SetFillColor(9);
+  S22_DELTAR_0->SetFillStyle(1001);
+
+  // Creating a new THStack
+  THStack* stack = new THStack("mystack_44","mystack");
+  stack->Add(S22_DELTAR_0);
+  stack->Draw("");
+
+  // Y axis
+  stack->GetYaxis()->SetLabelSize(0.04);
+  stack->GetYaxis()->SetLabelOffset(0.005);
+  stack->GetYaxis()->SetTitleSize(0.06);
+  stack->GetYaxis()->SetTitleFont(22);
+  stack->GetYaxis()->SetTitleOffset(1);
+  stack->GetYaxis()->SetTitle("Events  ( L_{int} = 10 fb^{-1} )");
+
+  // X axis
+  stack->GetXaxis()->SetLabelSize(0.04);
+  stack->GetXaxis()->SetLabelOffset(0.005);
+  stack->GetXaxis()->SetTitleSize(0.06);
+  stack->GetXaxis()->SetTitleFont(22);
+  stack->GetXaxis()->SetTitleOffset(1);
+  stack->GetXaxis()->SetTitle("#DeltaR [ l-_{1}, l+_{1} ] ");
+
+  // Finalizing the TCanvas
+  canvas->SetLogx(0);
+  canvas->SetLogy(1);
+
+  // Saving the image
+  canvas->SaveAs("../../HTML/MadAnalysis5job_0/selection_21.png");
+  canvas->SaveAs("../../PDF/MadAnalysis5job_0/selection_21.png");
+  canvas->SaveAs("../../DVI/MadAnalysis5job_0/selection_21.eps");
+
+}

@@ -1,0 +1,241 @@
+[?1034h[0mMA5: [0m
+[0mMA5: *************************************************************[0m
+[0mMA5: *                                                           *[0m
+[0mMA5: *        W E L C O M E  to  M A D A N A L Y S I S  5        *[0m
+[0mMA5: *                         ______  ______                    *[0m
+[0mMA5: *                 /'\_/`\/\  __ \/\  ___\                   *[0m
+[0mMA5: *                /\      \ \ \_\ \ \ \__/                   *[0m
+[0mMA5: *                \ \ \__\ \ \  __ \ \___``\                 *[0m
+[0mMA5: *                 \ \ \_/\ \ \ \/\ \/\ \_\ \                *[0m
+[0mMA5: *                  \ \_\\ \_\ \_\ \_\ \____/                *[0m
+[0mMA5: *                   \/_/ \/_/\/_/\/_/\/___/                 *[0m
+[0mMA5: *                                                           *[0m
+[0mMA5: *   MA5 release : 1.8.44                       2020/04/17   *[0m
+[0mMA5: *                                                           *[0m
+[0mMA5: *         Comput. Phys. Commun. 184 (2013) 222-256          *[0m
+[0mMA5: *             Eur. Phys. J. C74 (2014) 3103                 *[0m
+[0mMA5: *                                                           *[0m
+[0mMA5: *   The MadAnalysis Development Team - Please visit us at   *[0m
+[0mMA5: *            https://launchpad.net/madanalysis5             *[0m
+[0mMA5: *                                                           *[0m
+[0mMA5: *              Type 'help' for in-line help.                *[0m
+[0mMA5: *                                                           *[0m
+[0mMA5: *************************************************************[0m
+[0mMA5: Platform: Linux 2.6.32-754.28.1.el6.x86_64 [32m[Linux mode][0m[0m
+[0mMA5: Reading user settings ...[0m
+[0mMA5: Checking mandatory packages:[0m
+[0mMA5:      - Python                   [32m[OK][0m[0m
+[0mMA5:      - GNU GCC g++              [32m[OK][0m[0m
+[0mMA5:      - GNU Make                 [32m[OK][0m[0m
+[0mMA5: Checking optional packages devoted to data processing:[0m
+[0mMA5:      - Zlib                     [32m[OK][0m[0m
+[0mMA5:      - FastJet                  [32m[OK][0m[0m
+[0mMA5:      - Root                     [32m[OK][0m[0m
+[0mMA5:      - Delphes                  [35m[DISABLED][0m[0m
+[0mMA5:      - Delphes-MA5tune          [35m[DISABLED][0m[0m
+[0mMA5: Checking the MadAnalysis 5 core library:[0m
+[0mMA5:   => System configuration has changed since the last use. Need to rebuild the library.[0m
+[0mMA5: [0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:                 Building SampleAnalyzer libraries     [0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    How many cores for the compiling? default = max = 24[0m
+   Answer: [0mMA5:    => Number of cores used for the compilation = 24[0m
+[0mMA5:    Writing the setup files ...[0m
+[0mMA5:    Writing all the Makefiles ...[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 1/11 - test program: SampleAnalyzer configuration[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[0mMA5:      - Checking the program output...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 2/11 - library: SampleAnalyzer commons[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 3/11 - test program: SampleAnalyzer commons[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[0mMA5:      - Checking the program output...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 4/11 - library: interface to zlib[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 5/11 - test program: interface to zlib[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[0mMA5:      - Checking the program output...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 6/11 - library: interface to FastJet[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 7/11 - test program: interface to Fastjet[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[0mMA5:      - Checking the program output...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 8/11 - library: interface to Root[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 9/11 - test program: interface to Root[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[0mMA5:      - Checking the program output...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 10/11 - library: SampleAnalyzer core[0m
+[0mMA5:      - Cleaning the project before building the library ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the library ...[0m
+[0mMA5:      - Checking that the library is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the library ...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Component 11/11 - test program: SampleAnalyzer core[0m
+[0mMA5:      - Cleaning the project before building the test program ...[0m
+[0mMA5:      - Compiling the source files ...[0m
+[0mMA5:      - Linking the test program ...[0m
+[0mMA5:      - Checking that the test program is properly built ...[0m
+[0mMA5:      - Cleaning the project after building the test program ...[0m
+[0mMA5:      - Running the test program ...[0m
+[0mMA5:      - Checking the program output...[0m
+[0mMA5:       => Status: [32m[OK][0m[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5:    Elapsed time = 43.63 seconds[0m
+[0mMA5:    **********************************************************[0m
+[0mMA5: [0m
+[0mMA5: Reading user settings ...[0m
+[0mMA5: Checking optional packages devoted to reinterpretation:[0m
+[0mMA5:      - SciPy                    [32m[OK][0m[0m
+[0mMA5:      - PAD                      [35m[DISABLED][0m[0m
+[0mMA5:      - PADForMA5tune            [35m[DISABLED][0m[0m
+[0mMA5:      - PADForSFS                [35m[DISABLED][0m[0m
+[0mMA5:      - pyhf                     [35m[DISABLED][0m[0m
+[0mMA5: Checking optional packages devoted to histogramming:[0m
+[0mMA5:      - Root                     [32m[OK][0m[0m
+[0mMA5:      - Matplotlib               [32m[OK][0m[0m
+[0mMA5:      - gnuplot                  [32m[OK][0m[0m
+[0mMA5:      - pdflatex                 [32m[OK][0m[0m
+[0mMA5:      - latex                    [32m[OK][0m[0m
+[0mMA5: Package used for graphical rendering: [32mRoot[0m[0m
+[0mMA5: *************************************************************[0m
+[0mMA5: Particle labels exported from madanalysis/input/particles_name_default.txt[0m
+[0mMA5:   => 87 particles successfully exported.[0m
+[0mMA5: Multiparticle labels exported from madanalysis/input/multiparticles_default.txt[0m
+[0mMA5:   => Creation of the label 'invisible' (-> missing energy).[0m
+[0mMA5:   => Creation of the label 'hadronic' (-> jet energy).[0m
+[0mMA5:   => 8 multiparticles successfully exported.[0m
+[0mMA5: Executing the commands from the script[0m
+[0mMA5: /uscms_data/d3/corderom/Theory/CMSSW_10_2_13/src/SMP_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/output/scripts/ma5_CBWL4_10.txt...[0m
+[0mMA5: ma5># Operation for MadAnalysis NTGC[0m
+[0mMA5: ma5>import /uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/../bin/internal/ufomodel[0m
+[31mMA5-ERROR: The dataset '/uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/bin/internal/ufomodel' has not been found or has a unsupported format.[0m
+[0mMA5: ma5>import /uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/output/results/ntgc_llg_CBWL4_10/Events/run_01/unweighted_events.lhe.gz as unweighted_events[0m
+[0mMA5:    -> Storing the file 'unweighted_events.lhe.gz' in the dataset 'unweighted_events'.[0m
+[0mMA5: ma5>set main.graphic_render = root[0m
+[0mMA5: ma5>plot THT                 40 0 500 [logY][0m
+[0mMA5: ma5>plot MET                 40 0 500 [logY][0m
+[0mMA5: ma5>plot SQRTS               40 0 500 [logY][0m
+[0mMA5: ma5>plot PT(z[1])            40 0 1000 [logY interstate][0m
+[0mMA5: ma5>plot ETA(z[1])           40 -7 7 [logY interstate][0m
+[0mMA5: ma5>plot PT(a[1])            40 0 1000 [logY][0m
+[0mMA5: ma5>plot ETA(a[1])           40 -7 7 [logY][0m
+[0mMA5: ma5>plot M(z[1] a[1])        40 0 800 [logY allstate][0m
+[0mMA5: ma5>plot DELTAR(z[1],a[1])   40 0 8 [logY allstate][0m
+[0mMA5: ma5>plot PT(a[1])            40 0 800 [logY][0m
+[0mMA5: ma5>plot ETA(a[1])           40 -7 7 [logY][0m
+[0mMA5: ma5>plot PT(l-[1])           40 0 650 [logY][0m
+[0mMA5: ma5>plot ETA(l-[1])          40 -7 7 [logY][0m
+[0mMA5: ma5>plot PT(l+[1])           40 0 650 [logY][0m
+[0mMA5: ma5>plot ETA(l+[1])          40 -7 7 [logY][0m
+[0mMA5: ma5>plot M(a[1] l+[1])       40 0 800 [logY ][0m
+[0mMA5: ma5>plot M(a[1] l-[1])       40 0 800 [logY ][0m
+[0mMA5: ma5>plot M(a[1] l-[1] l+[1]) 40 0 900 [logY ][0m
+[0mMA5: ma5>plot M(l-[1] l+[1])      40 20 200 [logY ][0m
+[0mMA5: ma5>plot DELTAR(a[1],l+[1])  40 0 8 [logY ][0m
+[0mMA5: ma5>plot DELTAR(a[1],l-[1])  40 0 8 [logY ][0m
+[0mMA5: ma5>plot DELTAR(l-[1],l+[1]) 40 0 5 [logY ][0m
+[0mMA5: ma5>submit /uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/output/results/ntgc_llg_CBWL4_10/MA5_PARTON_ANALYSIS_analysis1[0m
+[0mMA5:    Creating folder 'MA5_PARTON_ANALYSIS_analysis1'...[0m
+[0mMA5:    Copying 'SampleAnalyzer' source files...[0m
+[0mMA5:    Inserting your selection into 'SampleAnalyzer'...[0m
+[0mMA5:    Writing the list of datasets...[0m
+[0mMA5:    Writing the command line history...[0m
+[0mMA5:    Creating Makefiles...[0m
+[0mMA5:    Compiling 'SampleAnalyzer'...[0m
+[0mMA5:    Linking 'SampleAnalyzer'...[0m
+[0mMA5:    Running 'SampleAnalyzer' over dataset 'unweighted_events'...[0m
+[0mMA5:     *******************************************************[0m
+    * SampleAnalyzer for MadAnalysis 5 - Welcome.
+    * Initializing all components
+      - version: 1.8.44 (2020/04/17) 
+      - general: everything is default.
+      - extracting the list of event samples...
+      - analyzer 'MadAnalysis5job'
+    * Running over files ...
+    * 1/1  /uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/output/results/ntgc_llg_CBWL4_10/Events/run_01/unweighted_events.lhe.gz
+        => file size: 10.27 Mo
+        => sample format: LHE file produced by MadGraph5.
+        => total number of events: 10000 ( analyzed: 10000 ; skipped: 0 ) 
+    * Finalizing all components ...
+    * Total number of processed events: 10000.
+    * Goodbye.
+[0mMA5:     *******************************************************[0m
+[0mMA5:    Checking SampleAnalyzer output...[0m
+[0mMA5:    Extracting data from the output files...[0m
+[0mMA5:    Preparing data for the reports ...[0m
+[0mMA5:    Generating all plots ...[0m
+[0mMA5:    Generating the HMTL report ...[0m
+[0mMA5:      -> To open this HTML report, please type 'open'.[0m
+[0mMA5:    Generating the PDF report ...[0m
+[0mMA5:      -> To open this PDF report, please type 'open uscms/home/corderom/nobackup/Theory/CMSSW_10_2_13/src/SMP_ZGamma_MG5aMC/MG5_aMC/MG5_aMC_v2_7_2/corderom_MG5_aMC/output/results/ntgc_llg_CBWL4_10/MA5_PARTON_ANALYSIS_analysis1/Output/PDF/MadAnalysis5job_0'.[0m
+[0mMA5:    Generating the DVI report ...[0m
+[0mMA5:    Well done! Elapsed time = 41.13 seconds[0m
+[0mMA5: ma5>exit[0m
+[0mMA5: [0m
+ma5>ma5>ma5>ma5>ma5>ma5>ma5>ma5>ma5>[35mMA5-WARNING: Command "y" not implemented, please try again.[0m
+ma5>[35mMA5-WARNING: Command "c" not implemented, please try again.[0m
+ma5>[0mMA5: [0m

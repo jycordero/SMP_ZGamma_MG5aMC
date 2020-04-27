@@ -1,0 +1,940 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo)) (./jheppub.sty
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/config/graphics.cfg)
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def))))
+(/usr/share/texmf/tex/latex/natbib/natbib.sty)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+(/cvmfs/cms.cern.ch/slc6_amd64_gcc700/external/rivet/2.5.4-gnimlf6/share/Rivet/
+texmf/tex/latex/config/color.cfg))
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf/tex/latex/config/hyperref.cfg)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty)
+Implicit mode ON; LaTeX internals redefined
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty))
+*hyperref using default driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def)
+(/usr/share/texmf/tex/latex/psnfss/ot1phv.fd))
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+(/usr/share/texmf/tex/latex/base/t1enc.def))
+(/usr/share/texmf/tex/latex/colortbl/colortbl.sty
+(/usr/share/texmf/tex/latex/tools/array.sty))
+(/cvmfs/cms.cern.ch/slc6_amd64_gcc700/external/rivet/2.5.4-gnimlf6/share/Rivet/
+texmf/tex/latex/xcolor/xcolor.sty
+(/cvmfs/cms.cern.ch/slc6_amd64_gcc700/external/rivet/2.5.4-gnimlf6/share/Rivet/
+texmf/tex/latex/config/color.cfg)) (/usr/share/texmf/tex/latex/float/float.sty)
+
+No file main.aux.
+(/usr/share/texmf/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty))
+(/usr/share/texmf/tex/latex/base/t1cmss.fd)
+<logo.png, id=7, 325.215pt x 92.59593pt> <use logo.png>
+
+Package JHEP Warning: E-mails are missing.
+(JHEP)                Plese use \emailAdd macro to provide e-mails..
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+[0{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png (PNG copy)>
+] [1] (/usr/share/texmf/tex/latex/base/t1cmtt.fd)
+Overfull \hbox (73.67056pt too wide) in paragraph at lines 50--103
+\T1/cmtt/m/n/10 ma5>import /-uscms/-home/-corderom/-nobackup/-Theory/-CMSSW_10_
+2_13/-src/-SMP_MG5aMC/-submitter_MG5_aMC/-
+
+Overfull \hbox (73.67056pt too wide) in paragraph at lines 50--103
+\T1/cmtt/m/n/10 ma5>import /-uscms/-home/-corderom/-nobackup/-Theory/-CMSSW_10_
+2_13/-src/-SMP_MG5aMC/-submitter_MG5_aMC/-
+
+Overfull \hbox (52.67569pt too wide) in paragraph at lines 50--103
+\T1/cmtt/m/n/10 output/-results/-ntgc_llg_CBBL4_20/-Events/-run_01/-unweighted_
+events.lhe.gz as unweighted_events 
+
+Overfull \hbox (73.67056pt too wide) in paragraph at lines 50--103
+\T1/cmtt/m/n/10 ma5>submit /-uscms/-home/-corderom/-nobackup/-Theory/-CMSSW_10_
+2_13/-src/-SMP_MG5aMC/-submitter_MG5_aMC/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--103
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\T1/cmr/m/n/10 /-uscms/-home/-corderom/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 nobackup/-Theory/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 CMSSW_10_2_13/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 src/-SMP_MG5aMC/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 submitter_MG5_aMC/-output/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 results/-ntgc_llg_CBBL4_20/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 Events/-run_01/-
+
+Overfull \hbox (18.13213pt too wide) in paragraph at lines 128--135
+ [] 
+[3]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 153--153
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 149--156
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--157
+
+<selection_0.png, id=42, 698.61pt x 473.77pt> <use selection_0.png> [4pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.1}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.165       \newpage
+                     <./selection_0.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 175--175
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 171--178
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--179
+
+<selection_1.png, id=52, 698.61pt x 473.77pt> <use selection_1.png> [5pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.2}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.187       \newpage
+                     <./selection_1.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 197--197
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 193--200
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--201
+
+<selection_2.png, id=59, 698.61pt x 473.77pt> <use selection_2.png> [6pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.3}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.209       \newpage
+                     <./selection_2.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 219--219
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 215--222
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--223
+
+<selection_3.png, id=67, 698.61pt x 473.77pt> <use selection_3.png> [7pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.4}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.231       \newpage
+                     <./selection_3.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 241--241
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 237--244
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--245
+
+<selection_4.png, id=74, 698.61pt x 473.77pt> <use selection_4.png> [8pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.5}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.253       \newpage
+                     <./selection_4.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 263--263
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 259--266
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--267
+
+<selection_5.png, id=81, 698.61pt x 473.77pt> <use selection_5.png> [9pdfTeX wa
+rning (ext4): destination with the same identifier (name{figure.6}) has been al
+ready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.275       \newpage
+                     <./selection_5.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 285--285
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]|\T1/cmr/m/n/10 -
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 281--288
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--289
+
+<selection_6.png, id=88, 698.61pt x 473.77pt> <use selection_6.png> [10pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.7}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.297       \newpage
+                     <./selection_6.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 307--307
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 303--310
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--311
+
+<selection_7.png, id=95, 698.61pt x 473.77pt> <use selection_7.png> [11pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.8}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.319       \newpage
+                     <./selection_7.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 329--329
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 325--332
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--333
+
+<selection_8.png, id=102, 698.61pt x 473.77pt> <use selection_8.png> [12pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.9}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.341       \newpage
+                     <./selection_8.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 351--351
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 347--354
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--355
+
+<selection_9.png, id=110, 698.61pt x 473.77pt> <use selection_9.png> [13pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.10}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.363       \newpage
+                     <./selection_9.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 373--373
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]|\T1/cmr/m/n/10 -
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 369--376
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--377
+
+<selection_10.png, id=117, 698.61pt x 473.77pt> <use selection_10.png> [14pdfTe
+X warning (ext4): destination with the same identifier (name{figure.11}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.385       \newpage
+                     <./selection_10.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 395--395
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 391--398
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--399
+
+<selection_11.png, id=124, 698.61pt x 473.77pt> <use selection_11.png> [15pdfTe
+X warning (ext4): destination with the same identifier (name{figure.12}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.407       \newpage
+                     <./selection_11.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 417--417
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 413--420
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--421
+
+<selection_12.png, id=131, 698.61pt x 473.77pt> <use selection_12.png> [16pdfTe
+X warning (ext4): destination with the same identifier (name{figure.13}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.429       \newpage
+                     <./selection_12.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 439--439
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 435--442
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--443
+
+<selection_13.png, id=138, 698.61pt x 473.77pt> <use selection_13.png> [17pdfTe
+X warning (ext4): destination with the same identifier (name{figure.14}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.451       \newpage
+                     <./selection_13.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 461--461
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 457--464
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--465
+
+<selection_14.png, id=145, 698.61pt x 473.77pt> <use selection_14.png> [18pdfTe
+X warning (ext4): destination with the same identifier (name{figure.15}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.473       \newpage
+                     <./selection_14.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 483--483
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 479--486
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--487
+
+<selection_15.png, id=153, 698.61pt x 473.77pt> <use selection_15.png> [19pdfTe
+X warning (ext4): destination with the same identifier (name{figure.16}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.495       \newpage
+                     <./selection_15.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 505--505
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 501--508
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--509
+
+<selection_16.png, id=160, 698.61pt x 473.77pt> <use selection_16.png> [20pdfTe
+X warning (ext4): destination with the same identifier (name{figure.17}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.517       \newpage
+                     <./selection_16.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 523--530
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--531
+
+<selection_17.png, id=167, 698.61pt x 473.77pt> <use selection_17.png> [21pdfTe
+X warning (ext4): destination with the same identifier (name{figure.18}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.539       \newpage
+                     <./selection_17.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 549--549
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 545--552
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--553
+
+<selection_18.png, id=174, 698.61pt x 473.77pt> <use selection_18.png> [22pdfTe
+X warning (ext4): destination with the same identifier (name{figure.19}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.561       \newpage
+                     <./selection_18.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 571--571
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 567--574
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--575
+
+<selection_19.png, id=181, 698.61pt x 473.77pt> <use selection_19.png> [23pdfTe
+X warning (ext4): destination with the same identifier (name{figure.20}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.583       \newpage
+                     <./selection_19.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 593--593
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 589--596
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--597
+
+<selection_20.png, id=188, 698.61pt x 473.77pt> <use selection_20.png> [24pdfTe
+X warning (ext4): destination with the same identifier (name{figure.21}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.605       \newpage
+                     <./selection_20.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 615--615
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 611--618
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--619
+
+<selection_21.png, id=196, 698.61pt x 473.77pt> <use selection_21.png> [25pdfTe
+X warning (ext4): destination with the same identifier (name{figure.22}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.627       \end{document}
+                           <./selection_21.png (PNG copy)>] (./main.aux) )
+(see the transcript file for additional information) </uscms/home/corderom/.tex
+live2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </uscms/home/cor
+derom/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </uscm
+s/home/corderom/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600
+pk> </uscms/home/corderom/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+bx1200.600pk> </uscms/home/corderom/.texlive2007/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecti1000.600pk> </uscms/home/corderom/.texlive2007/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbx1000.600pk> </uscms/home/corderom/.texlive2007/texmf-var/
+fonts/pk/ljfour/jknappen/ec/eccc1000.600pk> </uscms/home/corderom/.texlive2007/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </uscms/home/corderom/.te
+xlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.600pk> </uscms/home/co
+rderom/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1728.600pk></usr/
+share/texmf/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/blues
+ky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb>
+Output written on main.pdf (26 pages, 356772 bytes).
+Transcript written on main.log.
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo)) (./jheppub.sty
+(/usr/share/texmf/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texmf/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texmf/tex/latex/graphics/epsfig.sty
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf/tex/latex/graphics/keyval.sty)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+(/usr/share/texmf/tex/latex/graphics/trig.sty)
+(/usr/share/texmf/tex/latex/config/graphics.cfg)
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def))))
+(/usr/share/texmf/tex/latex/natbib/natbib.sty)
+(/usr/share/texmf/tex/latex/graphics/color.sty
+(/cvmfs/cms.cern.ch/slc6_amd64_gcc700/external/rivet/2.5.4-gnimlf6/share/Rivet/
+texmf/tex/latex/config/color.cfg))
+(/usr/share/texmf/tex/latex/hyperref/hyperref.sty
+(/usr/share/texmf/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texmf/tex/latex/config/hyperref.cfg)
+(/usr/share/texmf/tex/latex/oberdiek/kvoptions.sty)
+Implicit mode ON; LaTeX internals redefined
+(/usr/share/texmf/tex/latex/ltxmisc/url.sty))
+*hyperref using default driver hpdftex*
+(/usr/share/texmf/tex/latex/hyperref/hpdftex.def)
+(/usr/share/texmf/tex/latex/psnfss/ot1phv.fd))
+(/usr/share/texmf/tex/latex/base/fontenc.sty
+(/usr/share/texmf/tex/latex/base/t1enc.def))
+(/usr/share/texmf/tex/latex/colortbl/colortbl.sty
+(/usr/share/texmf/tex/latex/tools/array.sty))
+(/cvmfs/cms.cern.ch/slc6_amd64_gcc700/external/rivet/2.5.4-gnimlf6/share/Rivet/
+texmf/tex/latex/xcolor/xcolor.sty
+(/cvmfs/cms.cern.ch/slc6_amd64_gcc700/external/rivet/2.5.4-gnimlf6/share/Rivet/
+texmf/tex/latex/config/color.cfg)) (/usr/share/texmf/tex/latex/float/float.sty)
+ (./main.aux) (/usr/share/texmf/tex/latex/hyperref/nameref.sty
+(/usr/share/texmf/tex/latex/oberdiek/refcount.sty)) (./main.out) (./main.out)
+(/usr/share/texmf/tex/latex/base/t1cmss.fd)
+<logo.png, id=119, 325.215pt x 92.59593pt> <use logo.png>
+
+Package JHEP Warning: E-mails are missing.
+(JHEP)                Plese use \emailAdd macro to provide e-mails..
+
+(/usr/share/texmf/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texmf/tex/latex/amsfonts/umsb.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+
+[0{/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png (PNG copy)>
+] (./main.toc) [1] (/usr/share/texmf/tex/latex/base/t1cmtt.fd)
+Overfull \hbox (73.67056pt too wide) in paragraph at lines 50--103
+\T1/cmtt/m/n/10 ma5>import /-uscms/-home/-corderom/-nobackup/-Theory/-CMSSW_10_
+2_13/-src/-SMP_MG5aMC/-submitter_MG5_aMC/-
+
+Overfull \hbox (73.67056pt too wide) in paragraph at lines 50--103
+\T1/cmtt/m/n/10 ma5>import /-uscms/-home/-corderom/-nobackup/-Theory/-CMSSW_10_
+2_13/-src/-SMP_MG5aMC/-submitter_MG5_aMC/-
+
+Overfull \hbox (52.67569pt too wide) in paragraph at lines 50--103
+\T1/cmtt/m/n/10 output/-results/-ntgc_llg_CBBL4_20/-Events/-run_01/-unweighted_
+events.lhe.gz as unweighted_events 
+
+Overfull \hbox (73.67056pt too wide) in paragraph at lines 50--103
+\T1/cmtt/m/n/10 ma5>submit /-uscms/-home/-corderom/-nobackup/-Theory/-CMSSW_10_
+2_13/-src/-SMP_MG5aMC/-submitter_MG5_aMC/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--103
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]|\T1/cmr/m/n/10 /-uscms/-home/-corderom/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 nobackup/-Theory/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 CMSSW_10_2_13/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 src/-SMP_MG5aMC/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 submitter_MG5_aMC/-output/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 results/-ntgc_llg_CBBL4_20/-
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+\T1/cmr/m/n/10 Events/-run_01/-
+
+Overfull \hbox (18.13213pt too wide) in paragraph at lines 128--135
+ [] 
+[3]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 153--153
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 149--156
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--157
+
+<selection_0.png, id=177, 698.61pt x 473.77pt> <use selection_0.png> [4pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.1}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.165       \newpage
+                     <./selection_0.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 175--175
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 171--178
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--179
+
+<selection_1.png, id=185, 698.61pt x 473.77pt> <use selection_1.png> [5pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.2}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.187       \newpage
+                     <./selection_1.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 197--197
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 193--200
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--201
+
+<selection_2.png, id=191, 698.61pt x 473.77pt> <use selection_2.png> [6pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.3}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.209       \newpage
+                     <./selection_2.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 219--219
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 215--222
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--223
+
+<selection_3.png, id=198, 698.61pt x 473.77pt> <use selection_3.png> [7pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.4}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.231       \newpage
+                     <./selection_3.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 241--241
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 237--244
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--245
+
+<selection_4.png, id=204, 698.61pt x 473.77pt> <use selection_4.png> [8pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.5}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.253       \newpage
+                     <./selection_4.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 263--263
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 259--266
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--267
+
+<selection_5.png, id=210, 698.61pt x 473.77pt> <use selection_5.png> [9pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.6}) has been a
+lready used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.275       \newpage
+                     <./selection_5.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 285--285
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
+[]|\T1/cmr/m/n/10 -
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 281--288
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--289
+
+<selection_6.png, id=216, 698.61pt x 473.77pt> <use selection_6.png> [10pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.7}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.297       \newpage
+                     <./selection_6.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 307--307
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 303--310
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--311
+
+<selection_7.png, id=222, 698.61pt x 473.77pt> <use selection_7.png> [11pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.8}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.319       \newpage
+                     <./selection_7.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 329--329
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 325--332
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--333
+
+<selection_8.png, id=228, 698.61pt x 473.77pt> <use selection_8.png> [12pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.9}) has been 
+already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.341       \newpage
+                     <./selection_8.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 351--351
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 347--354
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--355
+
+<selection_9.png, id=235, 698.61pt x 473.77pt> <use selection_9.png> [13pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.10}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.363       \newpage
+                     <./selection_9.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 373--373
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
+[]|\T1/cmr/m/n/10 -
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 369--376
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--377
+
+<selection_10.png, id=241, 698.61pt x 473.77pt> <use selection_10.png> [14pdfTe
+X warning (ext4): destination with the same identifier (name{figure.11}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.385       \newpage
+                     <./selection_10.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 395--395
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 391--398
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--399
+
+<selection_11.png, id=247, 698.61pt x 473.77pt> <use selection_11.png> [15pdfTe
+X warning (ext4): destination with the same identifier (name{figure.12}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.407       \newpage
+                     <./selection_11.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 417--417
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 413--420
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--421
+
+<selection_12.png, id=253, 698.61pt x 473.77pt> <use selection_12.png> [16pdfTe
+X warning (ext4): destination with the same identifier (name{figure.13}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.429       \newpage
+                     <./selection_12.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 439--439
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 435--442
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--443
+
+<selection_13.png, id=259, 698.61pt x 473.77pt> <use selection_13.png> [17pdfTe
+X warning (ext4): destination with the same identifier (name{figure.14}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.451       \newpage
+                     <./selection_13.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 461--461
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 457--464
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--465
+
+<selection_14.png, id=265, 698.61pt x 473.77pt> <use selection_14.png> [18pdfTe
+X warning (ext4): destination with the same identifier (name{figure.15}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.473       \newpage
+                     <./selection_14.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 483--483
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 479--486
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--487
+
+<selection_15.png, id=272, 698.61pt x 473.77pt> <use selection_15.png> [19pdfTe
+X warning (ext4): destination with the same identifier (name{figure.16}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.495       \newpage
+                     <./selection_15.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 505--505
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 501--508
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--509
+
+<selection_16.png, id=278, 698.61pt x 473.77pt> <use selection_16.png> [20pdfTe
+X warning (ext4): destination with the same identifier (name{figure.17}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.517       \newpage
+                     <./selection_16.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 523--530
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--531
+
+<selection_17.png, id=284, 698.61pt x 473.77pt> <use selection_17.png> [21pdfTe
+X warning (ext4): destination with the same identifier (name{figure.18}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.539       \newpage
+                     <./selection_17.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 549--549
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 545--552
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--553
+
+<selection_18.png, id=290, 698.61pt x 473.77pt> <use selection_18.png> [22pdfTe
+X warning (ext4): destination with the same identifier (name{figure.19}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.561       \newpage
+                     <./selection_18.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 571--571
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 567--574
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--575
+
+<selection_19.png, id=296, 698.61pt x 473.77pt> <use selection_19.png> [23pdfTe
+X warning (ext4): destination with the same identifier (name{figure.20}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.583       \newpage
+                     <./selection_19.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 593--593
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 589--596
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--597
+
+<selection_20.png, id=302, 698.61pt x 473.77pt> <use selection_20.png> [24pdfTe
+X warning (ext4): destination with the same identifier (name{figure.21}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.605       \newpage
+                     <./selection_20.png (PNG copy)>]
+Overfull \hbox (18.48262pt too wide) in paragraph at lines 615--615
+[]|\T1/cmr/m/n/10 unweighted_events| 
+
+Overfull \hbox (55.33208pt too wide) in paragraph at lines 611--618
+ [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--619
+
+<selection_21.png, id=309, 698.61pt x 473.77pt> <use selection_21.png> [25pdfTe
+X warning (ext4): destination with the same identifier (name{figure.22}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.627       \end{document}
+                           <./selection_21.png (PNG copy)>] (./main.aux) )
+(see the transcript file for additional information) </uscms/home/corderom/.tex
+live2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </uscms/home/cor
+derom/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </uscm
+s/home/corderom/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600
+pk> </uscms/home/corderom/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+bx1200.600pk> </uscms/home/corderom/.texlive2007/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecti1000.600pk> </uscms/home/corderom/.texlive2007/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbx1000.600pk> </uscms/home/corderom/.texlive2007/texmf-var/
+fonts/pk/ljfour/jknappen/ec/eccc1000.600pk> </uscms/home/corderom/.texlive2007/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </uscms/home/corderom/.te
+xlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1000.600pk> </uscms/home/co
+rderom/.texlive2007/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1728.600pk></usr/
+share/texmf/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/blues
+ky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy7.pfb>
+Output written on main.pdf (26 pages, 369277 bytes).
+Transcript written on main.log.
