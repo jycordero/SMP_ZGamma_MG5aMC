@@ -21,12 +21,8 @@ else
 	fi
 
 	echo "# Operation for MadAnalysis NTGC" > $OUTFILE
-	echo "import $MGDIR/bin/internal/ufomodel" >> $OUTFILE
+	echo "import $OUTMG/ntgc_llg_${OUTNAME}/bin/internal/ufomodel" >> $OUTFILE
 	echo "import $OUTMG/ntgc_llg_${OUTNAME}/Events/run_01/unweighted_events.lhe.gz as unweighted_events" >> $OUTFILE
-
-	#echo "define vl = 12 14 16" >> $OUTDIR/$OUTFILE
-	#echo "define vl~ = -16 -14 -12" >> $OUTDIR/$OUTFILE
-	#echo "define invisible = ve ve~ vm vm~ vt vt~ vl vl~" >> $OUTDIR/$OUTFILE
 	echo "set main.graphic_render = root"                       >> $OUTFILE
 	echo "plot THT                 40 0 500 [logY]"             >> $OUTFILE
 	echo "plot MET                 40 0 500 [logY]"             >> $OUTFILE
