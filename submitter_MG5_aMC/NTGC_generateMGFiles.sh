@@ -78,15 +78,16 @@ else
 
 	#setCuts $OUTFILE
 	
-	echo "set pta    15" >> $OUTFILE  
-	echo "set ptl    20" >> $OUTFILE
-	echo "set etaa  2.5" >> $OUTFILE
-	echo "set etal  2.5" >> $OUTFILE
-	echo "set drll  0.0" >> $OUTFILE
-	echo "set dral  0.7" >> $OUTFILE
-	echo "set mmll 50.0" >> $OUTFILE
+	echo "set nevents 100000" >> $OUTFILE
+	echo "set pta    15"      >> $OUTFILE  
+	echo "set ptl    20"      >> $OUTFILE
+	echo "set etaa  2.5"      >> $OUTFILE
+	echo "set etal  2.5"      >> $OUTFILE
+	echo "set drll  0.0"      >> $OUTFILE
+	echo "set dral  0.7"      >> $OUTFILE
+	echo "set mmll 50.0"      >> $OUTFILE
 
-	echo " 0 "	                      >> $OUTFILE
+	echo " 0 "	          >> $OUTFILE
 fi
 
 
