@@ -45,7 +45,8 @@ else
 	OUTNAME=${COUPLING}_${VALUE}
 	OUTFILE=${OUTCONF}/mg5_${OUTNAME}.txt
 
-	PROCESS="p p > z a, z > l- l+"
+	#PROCESS="p p > z a, z > l- l+"
+	PROCESS="p p > l- l+ a"
 
 	################################################################
 	echo "# Operationg for MadGraph NTGC" > $OUTFILE
